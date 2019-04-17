@@ -12,10 +12,10 @@ void main(void)
     scanf("%d", &number);
 
     // loop terminates when number is less than or equal to 0
-    do
+    while (number > 0)
     {
         factorial *= number;
         number--;
-    } while (number > 0);
+    }
     printf("Factorial= %d", factorial);
 }
